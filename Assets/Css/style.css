@@ -1,0 +1,159 @@
+:root{
+    --violet:#C55394;
+    --blanc: #FFF;
+    --noir: #333;
+    --violet_vif: #EB43A3; 
+}
+.fa-star{
+    color: var(--violet_vif);
+    display: inline-block;
+}
+.principe img{
+    color: white;
+    width: 5%;
+}
+h1{
+    display: inline-block;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: var(--violet);
+    height: 43px;
+    color: var(--blanc);
+}
+nav h1{
+    display: inline-block;
+    margin-left: 2%;
+    font-family: cursive ;
+    font-style: italic;
+    font-weight: lighter;
+}
+nav ul{
+    display: inline-block;
+    margin-left: 55%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-family: Arial;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--blanc);
+    text-transform: uppercase;
+    padding: 13.5px;
+}
+nav ul li a:hover{
+    background-color: var(--violet_vif);
+}
+.un_jour{
+    color: var(--violet);
+    font-style: italic;
+    font-family: cursive;
+    background-image: url(../img/rainbow.png);
+    background-repeat: no-repeat;
+    background-position: 53% -5%;
+    height: 65px;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.contenu{
+    background-color: var(--blanc);
+    margin: 0 15% 4% 15%;
+    box-shadow: 1px 2px 8px var(--noir);
+    border-radius: 7px;
+    padding:40px 22px 25px 22px;
+}
+.contenu h1{
+    color: var(--violet_vif);
+    font-family: cursive;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 10px;
+}
+.contenu .principe .p1{
+    margin-bottom: 15px;
+}
+.contenu .principe{
+    margin-bottom: 65px;
+}
+.contenu .licornes .img{
+    display: flex;
+}
+.contenu .licornes figure img{
+    width: 100%;
+    height: 110%;
+}
+.contenu .licornes figure{
+    margin: 1%;
+}
+.contenu .licornes figure figcaption{
+    text-align: center;
+    background-color: #333;
+    color: var(--blanc);
+    padding: 4%;
+    margin-top: -4%;
+    opacity: 0.7;
+    margin-top: -19%;
+}
+.contenu .licornes figure:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.15s ;
+    cursor: pointer;
+}
+.contenu .licornes{
+    margin-bottom: 80px;
+}
+.contenu .trouver .C{
+    display: flex;
+}
+.contenu .trouver .C section img{
+    height: 100%;
+    width: 100%;
+}
+.contenu .trouver .C .add{
+    margin-left: 2%;
+}
+.contenu .trouver .C .add .titre{
+    color: var(--violet);
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+}
+.contenu .trouver .C .add aside{
+    margin-bottom: 45px;
+}
+form{
+    margin-top: 2%;
+    
+}
+form input{
+    height: 20px;
+}
+form input[value]{
+    display: block;
+    margin-top: 2%;
+    background-color: var(--violet);
+    border: none;
+    color: var(--blanc);
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+}
+footer{
+    background-color:  var(--violet_vif);
+    color: var(--blanc);
+    padding: 7px;
+}
+footer p{
+    margin-left: 87%;
+}
